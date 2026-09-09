@@ -350,7 +350,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/imagenes/invicta1.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.q("/_next/static/media/invicta1.1rte4qaxqhtdy.png");}),
+__turbopack_context__.q("/_next/static/media/invicta1.3n9u13c0xth78.png");}),
 "[project]/imagenes/invicta1.png.mjs { IMAGE => \"[project]/imagenes/invicta1.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -362,11 +362,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$invicta1$2e$png_
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$invicta1$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 600,
-    height: 600,
+    width: 500,
+    height: 500,
     blurWidth: 8,
     blurHeight: 8,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAoElEQVR42lWOvQrCMACE+1pO4uIi1BdQF9/CRQRFrIMgFcHBHxA3R1HoEAtCiINTmvcIacgfRAOphN5yHB/cXfT9SwhBKZVS+hh5cxljDABACAVgrYUQTpP5eptmWWaMqQAr2Xg5aw267V58PJ9cZwVoyUbpotHvNIfx/nrhnIeq1+c92a2Sw+b2uGutw7hSChfFM88JIbVX/hhjzC87/QBb76TizDiG9AAAAABJRU5ErkJggg=="
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAA2ElEQVR42mWPTwvBcBjHx2HNv59MM3LQVsp97SAHc5g/ERcnIaWUI1MSS0mtyEW2Hb2FmYOL8g6Ui5uXIHepn61Y/nyOz/N9er4fBHlhM6BpOsaybBIA4Ed+IUkyrKrqQdf1G8dxXfPGWtoNsrncaCJNH0t1BQVB2KIo6rACwAuC5UbllKqXYLpahANxeMZxPGgFnB53oNCqHOO1PEw2i3C8kC7GywjyUdCeymf6ojK/z9Yy7PSEHYZhrq+SBEGEZEXZaxvtyvN8+8/C1KQoKsowTMLQ9L3nT9gCNFnhFHZdAAAAAElFTkSuQmCC"
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
@@ -398,7 +398,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/imagenes/tecno1.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.q("/_next/static/media/tecno1.2if8ut-b03g51.png");}),
+__turbopack_context__.q("/_next/static/media/tecno1.2d34ail2c_vn1.png");}),
 "[project]/imagenes/tecno1.png.mjs { IMAGE => \"[project]/imagenes/tecno1.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -410,11 +410,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$tecno1$2e$png__$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$tecno1$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 600,
-    height: 600,
+    width: 500,
+    height: 500,
     blurWidth: 8,
     blurHeight: 8,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAqklEQVR42k3NMQrCMBgF4J5KiogIUhSVDrVVa0Gr0sHJHkBcBJHqBRx0UPBGVRelOpQukoQMSSCggUTqW34e3w9P+/wCIUzTFGMsqyYPRiBaLYaeHYYz8aGAUno87CYDx/fMRlW/xLGCJEl6ttWxzEq5FLjG6379A6fdqhtFvRD0a8/HTQFj7HzajzzLd5vTcRdCkI9D8F4v52J8u4k45zmIIISyLCOEyPoFM1aSpqz4G6QAAAAASUVORK5CYII="
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAz0lEQVR42mWPOQrCUBRFMzpgvvkGCwOmEkEtkhBMvmbQFIJCJEgKBwKSlbgEcQEuQXAb9jYuQJtU9grf3xgcbvnefe/eQ1Ef4jhO4nleYVkWUL8SyyXZRdqhb2kXqQL3DMPAbEkuiqir7pI4eiRxiJHeTPP5nJoZAABt33Nu8yjEw4GLFwG612sSygyCILR8z75OJyNs9ywcjc20VhWNzEDyCralb9fL2TNZBdhUGycSW/kqCUWgOEg/WkbnDMXyhqZp9o+EYEKCKZOPxffsBVLtJWTqCw7hAAAAAElFTkSuQmCC"
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
@@ -422,7 +422,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 }),
 "[project]/imagenes/tecno2.png (static in ecmascript, tag client)", ((__turbopack_context__) => {
 
-__turbopack_context__.q("/_next/static/media/tecno2.1nq3ca32pq74y.png");}),
+__turbopack_context__.q("/_next/static/media/tecno2.077s9uthsac-e.png");}),
 "[project]/imagenes/tecno2.png.mjs { IMAGE => \"[project]/imagenes/tecno2.png (static in ecmascript, tag client)\" } [app-client] (structured image object with data url, ecmascript)", ((__turbopack_context__) => {
 "use strict";
 
@@ -434,11 +434,11 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$tecno2$2e$png__$
 ;
 const __TURBOPACK__default__export__ = {
     src: __TURBOPACK__imported__module__$5b$project$5d2f$imagenes$2f$tecno2$2e$png__$28$static__in__ecmascript$2c$__tag__client$29$__["default"],
-    width: 600,
-    height: 600,
+    width: 500,
+    height: 500,
     blurWidth: 8,
     blurHeight: 8,
-    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAIAAABLbSncAAAAq0lEQVR42kWNwQqCQABE/ZU6dY5oqbCoUIKiRHchlqIk6NYPiNRnebCTJ6HoJOhBkb0se9t+YLdEhZ3LDPNgRvvVEkKUZZkkCWOsabTGsizDGE91HToOpbQFX87vngdt25rNe51uFEUt+LzeF4huZxevN0Z/8AxDBVzbuUJkGaY5GgdBoKYevr/f7laL5WQI0jRV53menw5HAABCiHOugJSyKIo4jgkhVa6aP/hmibQ2t9QvAAAAAElFTkSuQmCC"
+    blurDataURL: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAzklEQVR42l2PsQqCUBiFNcWuooNwHbSgoAi6QRmVQYtYFKVZFoYgDbW09XgVPUX0EA1tDSHU4E0hjDzTz/m/4TsE8Q1JkhmWZSs8z7cYhskR6Yii2FYbjWsNoXt0n2iaVpInC4DU62hHd7EMHd3ABVl+AgCMBMgrirm2Z8F+s8W+NcVGXX1LELo/QJYnvmkFO3eFneEIGx3tFQFeAoBsVupp3YNnz8Nxf4DLheItEkVpSbWlNi8IoQeE8ExRlPgHxDM5jqsKgqBHgqW4ivsPKfUpWHkEihkAAAAASUVORK5CYII="
 };
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
