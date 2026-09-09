@@ -1,4 +1,5 @@
 	import Slider from "../components/slider";
+	import InfoBanner from "../components/infobanner";
 
 const products = [
 	{ name: "Silueta Nº 01", detail: "Reloj automático · Acero pulido", price: "€ 249", className: "product-image-one" },
@@ -12,15 +13,14 @@ export default function Body() {
 			<section className="hero" id="inicio">
 				<div className="hero-copy">
 					<h1>El tiempo es un lujo; vístelo con elegancia.</h1>
-					<a className="primary-button" href="#coleccion">Ver relojes <span aria-hidden="true">→</span></a>
+					<a className="primary-button" href="#relojes">Ver catalogo<span aria-hidden="true">→</span></a>
 				</div>
 				<div className="hero-slider">
 					<Slider />
                 </div>
 			</section>
-			<section className="manifesto" id="historia">
-				<p className="eyebrow">El manifiesto BlingTime</p>
-				<p className="manifesto-copy">Menos ruido. Más intención. Cada pieza se diseña para quedarse contigo mucho después de que pase la tendencia.</p>
+			<section className="" >
+				<InfoBanner />
 			</section>
 			<section className="collection" id="relojes">
 				<div className="section-heading">
