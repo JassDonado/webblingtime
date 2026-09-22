@@ -200,6 +200,38 @@ const products = [
         detail: "Reloj automático · Oro mate",
         price: "€ 299",
         className: "product-image-three"
+    },
+    {
+        name: "Silueta Nº 04",
+        detail: "Reloj mecánico · Acero cepillado",
+        price: "€ 329",
+        className: "product-image-four"
+    }
+];
+const perfumes = [
+    {
+        name: "Aura Nº 01",
+        detail: "Eau de parfum · Notas amaderadas",
+        price: "€ 89",
+        className: "perfume-image-one"
+    },
+    {
+        name: "Aura Nº 02",
+        detail: "Eau de parfum · Jazmín y ámbar",
+        price: "€ 95",
+        className: "perfume-image-two"
+    },
+    {
+        name: "Aura Nº 03",
+        detail: "Eau de toilette · Cítricos y cedro",
+        price: "€ 79",
+        className: "perfume-image-three"
+    },
+    {
+        name: "Aura Nº 04",
+        detail: "Eau de parfum · Rosa y almizcle",
+        price: "€ 99",
+        className: "perfume-image-four"
     }
 ];
 function Body() {
@@ -216,7 +248,7 @@ function Body() {
                                 children: "El tiempo es un lujo; vístelo con elegancia."
                             }, void 0, false, {
                                 fileName: "[project]/app/inicio/body.tsx",
-                                lineNumber: 15,
+                                lineNumber: 23,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -229,49 +261,49 @@ function Body() {
                                         children: "→"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 16,
+                                        lineNumber: 24,
                                         columnNumber: 64
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/inicio/body.tsx",
-                                lineNumber: 16,
+                                lineNumber: 24,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inicio/body.tsx",
-                        lineNumber: 14,
+                        lineNumber: 22,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "hero-slider",
                         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$slider$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/app/inicio/body.tsx",
-                            lineNumber: 19,
+                            lineNumber: 27,
                             columnNumber: 6
                         }, this)
                     }, void 0, false, {
                         fileName: "[project]/app/inicio/body.tsx",
-                        lineNumber: 18,
+                        lineNumber: 26,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/inicio/body.tsx",
-                lineNumber: 13,
+                lineNumber: 21,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
                 className: "",
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$components$2f$infobanner$2e$tsx__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                     fileName: "[project]/app/inicio/body.tsx",
-                    lineNumber: 23,
+                    lineNumber: 31,
                     columnNumber: 5
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/app/inicio/body.tsx",
-                lineNumber: 22,
+                lineNumber: 30,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -288,45 +320,45 @@ function Body() {
                                         children: "Selección de la casa"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 35,
                                         columnNumber: 11
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
                                         children: "La hora dorada"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 35,
                                         columnNumber: 58
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/inicio/body.tsx",
-                                lineNumber: 27,
+                                lineNumber: 35,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
                                 className: "text-link",
-                                href: "#contacto",
+                                href: "/catalogo/reloj",
                                 children: [
-                                    "Explorar todo ",
+                                    "Ver todos ",
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         "aria-hidden": "true",
                                         children: "↗"
                                     }, void 0, false, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 28,
-                                        columnNumber: 62
+                                        lineNumber: 36,
+                                        columnNumber: 64
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/inicio/body.tsx",
-                                lineNumber: 28,
+                                lineNumber: 36,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/inicio/body.tsx",
-                        lineNumber: 26,
+                        lineNumber: 34,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -343,18 +375,18 @@ function Body() {
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("i", {}, void 0, false, {
                                                         fileName: "[project]/app/inicio/body.tsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 42,
                                                         columnNumber: 60
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("b", {}, void 0, false, {
                                                         fileName: "[project]/app/inicio/body.tsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 42,
                                                         columnNumber: 65
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/inicio/body.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 42,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -365,13 +397,13 @@ function Body() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/inicio/body.tsx",
-                                                lineNumber: 35,
+                                                lineNumber: 43,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 41,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -383,56 +415,199 @@ function Body() {
                                                         children: product.name
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/inicio/body.tsx",
-                                                        lineNumber: 37,
+                                                        lineNumber: 45,
                                                         columnNumber: 43
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: product.detail
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/inicio/body.tsx",
-                                                        lineNumber: 37,
+                                                        lineNumber: 45,
                                                         columnNumber: 66
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/inicio/body.tsx",
-                                                lineNumber: 37,
+                                                lineNumber: 45,
                                                 columnNumber: 38
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: product.price
                                             }, void 0, false, {
                                                 fileName: "[project]/app/inicio/body.tsx",
-                                                lineNumber: 37,
+                                                lineNumber: 45,
                                                 columnNumber: 95
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/inicio/body.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 45,
                                         columnNumber: 8
                                     }, this)
                                 ]
                             }, product.name, true, {
                                 fileName: "[project]/app/inicio/body.tsx",
-                                lineNumber: 32,
+                                lineNumber: 40,
                                 columnNumber: 7
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/inicio/body.tsx",
-                        lineNumber: 30,
+                        lineNumber: 38,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/inicio/body.tsx",
-                lineNumber: 25,
+                lineNumber: 33,
+                columnNumber: 4
+            }, this),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
+                className: "collection",
+                id: "perfumes",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "section-heading",
+                        children: [
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                        className: "eyebrow",
+                                        children: "Esencias de la casa"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/inicio/body.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 11
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
+                                        children: "El aroma dorado"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/inicio/body.tsx",
+                                        lineNumber: 52,
+                                        columnNumber: 57
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/inicio/body.tsx",
+                                lineNumber: 52,
+                                columnNumber: 6
+                            }, this),
+                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
+                                className: "text-link",
+                                href: "/catalogo/perfume",
+                                children: [
+                                    "Ver todos ",
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                        "aria-hidden": "true",
+                                        children: "↗"
+                                    }, void 0, false, {
+                                        fileName: "[project]/app/inicio/body.tsx",
+                                        lineNumber: 53,
+                                        columnNumber: 66
+                                    }, this)
+                                ]
+                            }, void 0, true, {
+                                fileName: "[project]/app/inicio/body.tsx",
+                                lineNumber: 53,
+                                columnNumber: 6
+                            }, this)
+                        ]
+                    }, void 0, true, {
+                        fileName: "[project]/app/inicio/body.tsx",
+                        lineNumber: 51,
+                        columnNumber: 5
+                    }, this),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                        className: "product-grid",
+                        children: perfumes.map((product, index)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("article", {
+                                className: "product-card",
+                                children: [
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: `${product.className} product-art`,
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "product-bottle",
+                                                "aria-hidden": "true"
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/inicio/body.tsx",
+                                                lineNumber: 59,
+                                                columnNumber: 9
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                className: "product-index",
+                                                children: [
+                                                    "0",
+                                                    index + 1
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/inicio/body.tsx",
+                                                lineNumber: 60,
+                                                columnNumber: 9
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/inicio/body.tsx",
+                                        lineNumber: 58,
+                                        columnNumber: 8
+                                    }, this),
+                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                        className: "product-info",
+                                        children: [
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                children: [
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
+                                                        children: product.name
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/inicio/body.tsx",
+                                                        lineNumber: 62,
+                                                        columnNumber: 43
+                                                    }, this),
+                                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                                        children: product.detail
+                                                    }, void 0, false, {
+                                                        fileName: "[project]/app/inicio/body.tsx",
+                                                        lineNumber: 62,
+                                                        columnNumber: 66
+                                                    }, this)
+                                                ]
+                                            }, void 0, true, {
+                                                fileName: "[project]/app/inicio/body.tsx",
+                                                lineNumber: 62,
+                                                columnNumber: 38
+                                            }, this),
+                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$rsc$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                children: product.price
+                                            }, void 0, false, {
+                                                fileName: "[project]/app/inicio/body.tsx",
+                                                lineNumber: 62,
+                                                columnNumber: 95
+                                            }, this)
+                                        ]
+                                    }, void 0, true, {
+                                        fileName: "[project]/app/inicio/body.tsx",
+                                        lineNumber: 62,
+                                        columnNumber: 8
+                                    }, this)
+                                ]
+                            }, product.name, true, {
+                                fileName: "[project]/app/inicio/body.tsx",
+                                lineNumber: 57,
+                                columnNumber: 7
+                            }, this))
+                    }, void 0, false, {
+                        fileName: "[project]/app/inicio/body.tsx",
+                        lineNumber: 55,
+                        columnNumber: 5
+                    }, this)
+                ]
+            }, void 0, true, {
+                fileName: "[project]/app/inicio/body.tsx",
+                lineNumber: 50,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/inicio/body.tsx",
-        lineNumber: 12,
+        lineNumber: 20,
         columnNumber: 3
     }, this);
 }

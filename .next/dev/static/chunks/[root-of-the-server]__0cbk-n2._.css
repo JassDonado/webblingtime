@@ -1400,7 +1400,7 @@ h1 {
 }
 
 .product-grid {
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 18px;
   display: grid;
 }
@@ -1424,6 +1424,26 @@ h1 {
 
 .product-image-three {
   background: #b5c0be;
+}
+
+.product-image-four {
+  background: #d4c9a9;
+}
+
+.perfume-image-one {
+  background: #d8cfc2;
+}
+
+.perfume-image-two {
+  background: #c8d0c7;
+}
+
+.perfume-image-three {
+  background: #d8c1b5;
+}
+
+.perfume-image-four {
+  background: #c9c3d1;
 }
 
 .product-watch {
@@ -1455,6 +1475,34 @@ h1 {
 
 .product-watch b {
   width: 35px;
+}
+
+.product-bottle {
+  background: #263b35;
+  border-radius: 7px 7px 12px 12px;
+  width: 88px;
+  height: 160px;
+  position: relative;
+}
+
+.product-bottle:before {
+  content: "";
+  background: #d1ae6d;
+  width: 40px;
+  height: 42px;
+  position: absolute;
+  top: -35px;
+  left: 24px;
+}
+
+.product-bottle:after {
+  content: "";
+  border: 1px solid #eed79eb3;
+  width: 60px;
+  height: 55px;
+  position: absolute;
+  top: 51px;
+  left: 13px;
 }
 
 .product-index {
@@ -1580,6 +1628,251 @@ h1 {
   overflow: hidden;
 }
 
+.catalog-page {
+  padding: 90px 7vw 120px;
+}
+
+.catalog-heading {
+  border-bottom: 1px solid var(--line);
+  justify-content: space-between;
+  align-items: end;
+  margin: 0 3vw 42px;
+  padding-bottom: 32px;
+  display: flex;
+}
+
+.catalog-heading h1 {
+  margin: 0;
+  font-size: clamp(48px, 6vw, 82px);
+}
+
+.catalog-intro {
+  color: var(--muted);
+  max-width: 280px;
+  margin: 0 0 5px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.catalog-grid {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 30px 18px;
+  display: grid;
+}
+
+.catalog-image-wrap {
+  background: #e1ded2;
+  justify-content: center;
+  align-items: center;
+  height: 310px;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+
+.catalog-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+
+.catalog-card-info {
+  justify-content: space-between;
+  align-items: start;
+  padding: 17px 2px 0;
+  display: flex;
+}
+
+.catalog-card-info h2 {
+  margin: 0 0 7px;
+  font-size: 13px;
+}
+
+.catalog-card-info p {
+  color: var(--muted);
+  margin: 0;
+  font-size: 11px;
+  line-height: 1.4;
+}
+
+.catalog-card-info strong {
+  white-space: nowrap;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.catalog-actions {
+  gap: 8px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.catalog-actions button {
+  border: 1px solid var(--ink);
+  cursor: pointer;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  padding: 10px 12px;
+  font-size: 10px;
+  transition: background .2s, color .2s;
+}
+
+.catalog-view {
+  color: var(--ink);
+  background: none;
+}
+
+.catalog-add {
+  background: var(--ink);
+  color: var(--cream);
+  flex: 1;
+}
+
+.catalog-view:hover, .catalog-add:hover {
+  background: var(--terracotta);
+  border-color: var(--terracotta);
+  color: #fff;
+}
+
+.cart-trigger {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  display: flex;
+}
+
+.cart-panel {
+  -webkit-backdrop-filter: blur(30px) saturate(120%);
+  opacity: 0;
+  transform-origin: 100% 0;
+  z-index: 60;
+  background: linear-gradient(135deg, #fffffff5, #f4f1e7fa);
+  border: 1px solid #ffffffe6;
+  border-radius: 18px;
+  width: calc(100vw - 40px);
+  max-width: 390px;
+  padding: 22px;
+  position: absolute;
+  top: calc(100% + 12px);
+  right: 4.5vw;
+  transform: translateY(-12px)scale(.97);
+  box-shadow: 0 18px 45px #12352a2e, inset 0 1px #ffffffe6;
+}
+
+.cart-panel-open {
+  animation: .26s cubic-bezier(.22, 1, .36, 1) forwards cart-panel-in;
+}
+
+.cart-panel-closing {
+  animation: .26s ease-in forwards cart-panel-out;
+}
+
+@keyframes cart-panel-in {
+  from {
+    opacity: 0;
+    transform: translateY(-12px)scale(.97);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+}
+
+@keyframes cart-panel-out {
+  from {
+    opacity: 1;
+    transform: translateY(0)scale(1);
+  }
+
+  to {
+    opacity: 0;
+    transform: translateY(-10px)scale(.97);
+  }
+}
+
+.cart-panel-heading, .cart-total, .cart-item {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+}
+
+.cart-panel-heading {
+  border-bottom: 1px solid var(--line);
+  padding-bottom: 14px;
+}
+
+.cart-panel-heading h2 {
+  margin: 0;
+  font-family: Georgia, serif;
+  font-size: 25px;
+  font-weight: 400;
+}
+
+.cart-panel-heading button, .cart-item button {
+  cursor: pointer;
+  background: none;
+  border: 0;
+  padding: 3px;
+}
+
+.cart-empty {
+  color: var(--muted);
+  margin: 20px 0 4px;
+  font-size: 13px;
+}
+
+.cart-items {
+  gap: 15px;
+  padding: 18px 0;
+  display: grid;
+}
+
+.cart-item {
+  border-bottom: 1px solid var(--line);
+  align-items: start;
+  padding-bottom: 13px;
+}
+
+.cart-item strong, .cart-item span {
+  display: block;
+}
+
+.cart-item strong {
+  font-size: 13px;
+}
+
+.cart-item span {
+  color: var(--muted);
+  margin-top: 5px;
+  font-size: 11px;
+}
+
+.cart-total {
+  border-top: 1px solid var(--line);
+  padding: 15px 0;
+  font-size: 13px;
+}
+
+.cart-checkout {
+  background: var(--ink);
+  color: var(--cream);
+  cursor: pointer;
+  letter-spacing: .08em;
+  text-transform: uppercase;
+  border: 0;
+  width: 100%;
+  padding: 14px;
+  font-size: 11px;
+}
+
+.cart-checkout:hover {
+  background: var(--terracotta);
+}
+
 @media (max-width: 720px) {
   .site-header {
     height: 58px;
@@ -1670,11 +1963,45 @@ h1 {
   .footer-bottom div {
     gap: 12px;
   }
+
+  .catalog-page {
+    padding: 70px 24px 85px;
+  }
+
+  .catalog-heading {
+    align-items: start;
+    margin: 0 0 30px;
+    display: block;
+  }
+
+  .catalog-heading h1 {
+    margin-bottom: 25px;
+  }
+
+  .catalog-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .catalog-image-wrap {
+    height: 360px;
+  }
+}
+
+@media (min-width: 721px) and (max-width: 1000px) {
+  .catalog-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
   html {
     scroll-behavior: auto;
+  }
+
+  .cart-panel-open, .cart-panel-closing {
+    opacity: 1;
+    animation: none;
+    transform: none;
   }
 }
 
