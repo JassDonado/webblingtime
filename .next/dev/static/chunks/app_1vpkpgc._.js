@@ -12,6 +12,146 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$imag
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/inicio/header.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$foot$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/inicio/foot.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$cart$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/app/lib/cart.ts [app-client] (ecmascript)");
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER15145.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER28000.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER28001.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER30022.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER30023.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER33938.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER34105.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER34105 (2).png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER34138.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER35130.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER35743.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER37032.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER37186.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER39266.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER44708.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER44708 (2).png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER47161.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER47426.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER48380.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER48381.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER49838.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INPDIVER50942.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INRACING47768.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INSPE47507.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/INSPEDAMA47473.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/TECHNOBLACK523010.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/TECHNOBLACK523011.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
+(()=>{
+    const e = new Error("Cannot find module '../imgXcatalogo/imgReloj/TECHNOBLACK523012.png'");
+    e.code = 'MODULE_NOT_FOUND';
+    throw e;
+})();
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -20,30 +160,207 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const formatCop = new Intl.NumberFormat("es-CO", {
+    currency: "COP",
+    maximumFractionDigits: 0,
+    style: "currency"
+});
 const watches = [
     {
-        reference: "Silueta Nº 01",
-        detail: "Reloj automático · Acero pulido",
-        price: "€ 249",
-        image: "/imagenes/reloj-01.jpg"
+        reference: "INPDIVER15145",
+        detail: "Reloj Invicta · Diver",
+        price: 249000,
+        image: relojINPDIVER15145
     },
     {
-        reference: "Silueta Nº 02",
-        detail: "Reloj de cuarzo · Cuero italiano",
-        price: "€ 189",
-        image: "/imagenes/reloj-02.jpg"
+        reference: "INPDIVER28000",
+        detail: "Reloj Invicta · Diver",
+        price: 189000,
+        image: relojINPDIVER28000
     },
     {
-        reference: "Silueta Nº 03",
-        detail: "Reloj automático · Oro mate",
-        price: "€ 299",
-        image: "/imagenes/reloj-03.jpg"
+        reference: "INPDIVER28001",
+        detail: "Reloj Invicta · Diver",
+        price: 299000,
+        image: relojINPDIVER28001
     },
     {
-        reference: "Silueta Nº 04",
-        detail: "Reloj mecánico · Acero cepillado",
-        price: "€ 329",
-        image: "/imagenes/reloj-04.jpg"
+        reference: "INPDIVER30022",
+        detail: "Reloj Invicta · Diver",
+        price: 329000,
+        image: relojINPDIVER30022
+    },
+    {
+        reference: "INPDIVER30023",
+        detail: "Reloj Invicta · Diver",
+        price: 329000,
+        image: relojINPDIVER30023
+    },
+    {
+        reference: "INPDIVER33938",
+        detail: "Reloj Invicta · Diver",
+        price: 349000,
+        image: relojINPDIVER33938
+    },
+    {
+        reference: "INPDIVER34105",
+        detail: "Reloj Invicta · Diver",
+        price: 359000,
+        image: relojINPDIVER34105
+    },
+    {
+        reference: "INPDIVER34105-2",
+        detail: "Reloj Invicta · Diver",
+        price: 359000,
+        image: relojINPDIVER34105Dos
+    },
+    {
+        reference: "INPDIVER34138",
+        detail: "Reloj Invicta · Diver",
+        price: 369000,
+        image: relojINPDIVER34138
+    },
+    {
+        reference: "INPDIVER35130",
+        detail: "Reloj Invicta · Diver",
+        price: 379000,
+        image: relojINPDIVER35130
+    },
+    {
+        reference: "INPDIVER35743",
+        detail: "Reloj Invicta · Diver",
+        price: 389000,
+        image: relojINPDIVER35743
+    },
+    {
+        reference: "INPDIVER37032",
+        detail: "Reloj Invicta · Diver",
+        price: 399000,
+        image: relojINPDIVER37032
+    },
+    {
+        reference: "INPDIVER37186",
+        detail: "Reloj Invicta · Diver",
+        price: 409000,
+        image: relojINPDIVER37186
+    },
+    {
+        reference: "INPDIVER39266",
+        detail: "Reloj Invicta · Diver",
+        price: 419000,
+        image: relojINPDIVER39266
+    },
+    {
+        reference: "INPDIVER44708",
+        detail: "Reloj Invicta · Diver",
+        price: 429000,
+        image: relojINPDIVER44708
+    },
+    {
+        reference: "INPDIVER44708-2",
+        detail: "Reloj Invicta · Diver",
+        price: 429000,
+        image: relojINPDIVER44708Dos
+    },
+    {
+        reference: "INPDIVER47161",
+        detail: "Reloj Invicta · Diver",
+        price: 439000,
+        image: relojINPDIVER47161
+    },
+    {
+        reference: "INPDIVER47426",
+        detail: "Reloj Invicta · Diver",
+        price: 449000,
+        image: relojINPDIVER47426
+    },
+    {
+        reference: "INPDIVER48380",
+        detail: "Reloj Invicta · Diver",
+        price: 459000,
+        image: relojINPDIVER48380
+    },
+    {
+        reference: "INPDIVER48381",
+        detail: "Reloj Invicta · Diver",
+        price: 459000,
+        image: relojINPDIVER48381
+    },
+    {
+        reference: "INPDIVER49838",
+        detail: "Reloj Invicta · Diver",
+        price: 469000,
+        image: relojINPDIVER49838
+    },
+    {
+        reference: "INPDIVER50942",
+        detail: "Reloj Invicta · Diver",
+        price: 479000,
+        image: relojINPDIVER50942
+    },
+    {
+        reference: "INRACING47768",
+        detail: "Reloj Invicta · Racing",
+        price: 489000,
+        image: relojINRACING47768
+    },
+    {
+        reference: "INSPE47507",
+        detail: "Reloj Invicta · Special Edition",
+        price: 499000,
+        image: relojINSPE47507
+    },
+    {
+        reference: "INSPEDAMA47473",
+        detail: "Reloj Invicta · Special Edition",
+        price: 509000,
+        image: relojINSPEDAMA47473
+    },
+    {
+        reference: "TECHNOBLACK523010",
+        detail: "Reloj Technomarine · Techno Black",
+        price: 519000,
+        image: relojTECHNOBLACK523010
+    },
+    {
+        reference: "TECHNOBLACK523011",
+        detail: "Reloj Technomarine · Techno Black",
+        price: 529000,
+        image: relojTECHNOBLACK523011
+    },
+    {
+        reference: "TECHNOBLACK523012",
+        detail: "Reloj Technomarine · Techno Black",
+        price: 539000,
+        image: relojTECHNOBLACK523012
     }
 ];
 function RelojCatalogo() {
@@ -53,7 +370,7 @@ function RelojCatalogo() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$header$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/catalogo/reloj.tsx",
-                lineNumber: 21,
+                lineNumber: 79,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("section", {
@@ -70,7 +387,7 @@ function RelojCatalogo() {
                                         children: "Colección de relojería"
                                     }, void 0, false, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                        lineNumber: 25,
+                                        lineNumber: 83,
                                         columnNumber: 7
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
@@ -78,13 +395,13 @@ function RelojCatalogo() {
                                         children: "Todos los relojes"
                                     }, void 0, false, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                        lineNumber: 26,
+                                        lineNumber: 84,
                                         columnNumber: 7
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                lineNumber: 24,
+                                lineNumber: 82,
                                 columnNumber: 6
                             }, this),
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -92,13 +409,13 @@ function RelojCatalogo() {
                                 children: "Piezas pensadas para acompañar cada momento con precisión y carácter."
                             }, void 0, false, {
                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                lineNumber: 28,
+                                lineNumber: 86,
                                 columnNumber: 6
                             }, this)
                         ]
                     }, void 0, true, {
                         fileName: "[project]/app/catalogo/reloj.tsx",
-                        lineNumber: 23,
+                        lineNumber: 81,
                         columnNumber: 5
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -117,24 +434,21 @@ function RelojCatalogo() {
                                                 sizes: "(max-width: 720px) 100vw, (max-width: 1000px) 50vw, 25vw"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 34,
+                                                lineNumber: 92,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                 className: "product-index",
-                                                children: [
-                                                    "0",
-                                                    index + 1
-                                                ]
-                                            }, void 0, true, {
+                                                children: String(index + 1).padStart(2, "0")
+                                            }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 35,
+                                                lineNumber: 93,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                        lineNumber: 33,
+                                        lineNumber: 91,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -146,33 +460,33 @@ function RelojCatalogo() {
                                                         children: watch.reference
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                                        lineNumber: 39,
+                                                        lineNumber: 97,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: watch.detail
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                                        lineNumber: 40,
+                                                        lineNumber: 98,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 38,
+                                                lineNumber: 96,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: watch.price
+                                                children: formatCop.format(watch.price)
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 42,
+                                                lineNumber: 100,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                        lineNumber: 37,
+                                        lineNumber: 95,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -184,7 +498,7 @@ function RelojCatalogo() {
                                                 children: "Ver"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 45,
+                                                lineNumber: 103,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -193,7 +507,7 @@ function RelojCatalogo() {
                                                 onClick: ()=>{
                                                     (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$cart$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToCart"])({
                                                         reference: watch.reference,
-                                                        price: watch.price,
+                                                        price: formatCop.format(watch.price),
                                                         category: "Reloj"
                                                     });
                                                     setAddedReference(watch.reference);
@@ -201,41 +515,41 @@ function RelojCatalogo() {
                                                 children: addedReference === watch.reference ? "Añadido" : "Añadir al carrito"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 46,
+                                                lineNumber: 104,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
-                                        lineNumber: 44,
+                                        lineNumber: 102,
                                         columnNumber: 8
                                     }, this)
                                 ]
                             }, watch.reference, true, {
                                 fileName: "[project]/app/catalogo/reloj.tsx",
-                                lineNumber: 32,
+                                lineNumber: 90,
                                 columnNumber: 7
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/catalogo/reloj.tsx",
-                        lineNumber: 30,
+                        lineNumber: 88,
                         columnNumber: 5
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/catalogo/reloj.tsx",
-                lineNumber: 22,
+                lineNumber: 80,
                 columnNumber: 4
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$foot$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/catalogo/reloj.tsx",
-                lineNumber: 61,
+                lineNumber: 119,
                 columnNumber: 4
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/app/catalogo/reloj.tsx",
-        lineNumber: 20,
+        lineNumber: 78,
         columnNumber: 3
     }, this);
 }
