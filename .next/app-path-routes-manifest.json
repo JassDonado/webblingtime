@@ -1,8 +1,8 @@
 {
-  "/_global-error/page": "/_global-error",
   "/_not-found/page": "/_not-found",
+  "/_global-error/page": "/_global-error",
+  "/favicon.ico/route": "/favicon.ico",
   "/catalogo/perfume/page": "/catalogo/perfume",
   "/catalogo/reloj/page": "/catalogo/reloj",
-  "/favicon.ico/route": "/favicon.ico",
   "/page": "/"
 }
