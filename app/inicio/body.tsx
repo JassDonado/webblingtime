@@ -15,9 +15,9 @@ import { addToCart } from "../lib/cart";
 	import perfumeOneMillion from "../imgXcatalogo/imgPerfume/One Million.png";
 
 const products = [
-	{ name: "Invicta Pro Diver 28000", detail: "Reloj automático · Acero pulido", price: "$ 189.000", className: "product-image-one", image: reloj28000 },
-	{ name: "Invicta Pro Diver 15145", detail: "Reloj automático · Acero y negro", price: "$ 249.000", className: "product-image-two", image: reloj15145 },
-	{ name: "Invicta Pro Diver 28001", detail: "Reloj automático · Acero dorado", price: "$ 299.000", className: "product-image-three", image: reloj28001 },
+	{ name: "Invicta Pro Driver 28000", detail: "Reloj automático · Acero pulido", price: "$ 189.000", className: "product-image-one", image: reloj28000 },
+	{ name: "Invicta Pro Driver 15145", detail: "Reloj automático · Acero y negro", price: "$ 249.000", className: "product-image-two", image: reloj15145 },
+	{ name: "Invicta Pro Driver 28001", detail: "Reloj automático · Acero dorado", price: "$ 299.000", className: "product-image-three", image: reloj28001 },
 	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: "$ 489.000", className: "product-image-four", image: relojRacing },
 ];
 
