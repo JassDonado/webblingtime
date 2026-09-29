@@ -363,35 +363,24 @@ function RelojCatalogo() {
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                         className: "catalog-actions",
-                                        children: [
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                type: "button",
-                                                className: "catalog-view",
-                                                children: "Ver"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 99,
-                                                columnNumber: 9
-                                            }, this),
-                                            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
-                                                type: "button",
-                                                className: "catalog-add",
-                                                onClick: ()=>{
-                                                    (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$cart$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToCart"])({
-                                                        reference: watch.reference,
-                                                        price: formatCop.format(watch.price),
-                                                        category: "Reloj"
-                                                    });
-                                                    setAddedReference(watch.reference);
-                                                },
-                                                children: addedReference === watch.reference ? "Añadido" : "Añadir al carrito"
-                                            }, void 0, false, {
-                                                fileName: "[project]/app/catalogo/reloj.tsx",
-                                                lineNumber: 100,
-                                                columnNumber: 9
-                                            }, this)
-                                        ]
-                                    }, void 0, true, {
+                                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                            type: "button",
+                                            className: "catalog-add",
+                                            onClick: ()=>{
+                                                (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$cart$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToCart"])({
+                                                    reference: watch.reference,
+                                                    price: formatCop.format(watch.price),
+                                                    category: "Reloj"
+                                                });
+                                                setAddedReference(watch.reference);
+                                            },
+                                            children: addedReference === watch.reference ? "Añadido" : "Añadir al carrito"
+                                        }, void 0, false, {
+                                            fileName: "[project]/app/catalogo/reloj.tsx",
+                                            lineNumber: 99,
+                                            columnNumber: 9
+                                        }, this)
+                                    }, void 0, false, {
                                         fileName: "[project]/app/catalogo/reloj.tsx",
                                         lineNumber: 98,
                                         columnNumber: 8
@@ -415,7 +404,7 @@ function RelojCatalogo() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$foot$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/catalogo/reloj.tsx",
-                lineNumber: 115,
+                lineNumber: 114,
                 columnNumber: 4
             }, this)
         ]

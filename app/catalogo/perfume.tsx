@@ -5,13 +5,7 @@ import { useState } from "react";
 import Header from "../inicio/header";
 import Foot from "../inicio/foot";
 import { addToCart } from "../lib/cart";
-
-const perfumes = [
-	{ reference: "Aura Nº 01", detail: "Eau de parfum · Notas amaderadas", price: "€ 89", image: "/imagenes/perfume-01.jpg" },
-	{ reference: "Aura Nº 02", detail: "Eau de parfum · Jazmín y ámbar", price: "€ 95", image: "/imagenes/perfume-02.jpg" },
-	{ reference: "Aura Nº 03", detail: "Eau de toilette · Cítricos y cedro", price: "€ 79", image: "/imagenes/perfume-03.jpg" },
-	{ reference: "Aura Nº 04", detail: "Eau de parfum · Rosa y almizcle", price: "€ 99", image: "/imagenes/perfume-04.jpg" },
-];
+import { perfumes } from "./perfume-images";
 
 export default function PerfumeCatalogo() {
 	const [addedReference, setAddedReference] = useState<string | null>(null);
@@ -42,7 +36,6 @@ export default function PerfumeCatalogo() {
 								<strong>{perfume.price}</strong>
 							</div>
 							<div className="catalog-actions">
-								<button type="button" className="catalog-view">Ver</button>
 								<button type="button" className="catalog-add" onClick={() => {
 									addToCart({ reference: perfume.reference, price: perfume.price, category: "Perfume" });
 									setAddedReference(perfume.reference);

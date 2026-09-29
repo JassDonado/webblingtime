@@ -51,7 +51,7 @@ function Slider() {
         if (!ishovered) {
             const interval = setInterval(()=>{
                 setCurrentIndex((index)=>(index + 1) % images.length);
-            }, 2000);
+            }, 3000);
             return ()=>{
                 clearInterval(interval);
             };
@@ -69,14 +69,16 @@ function Slider() {
         className: "relative mx-auto mt-4 w-full",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "group relative mx-12 h-[460px] hover:-translate-y-2",
+                className: "group relative mx-12 h-[min(460px,42vw)] min-h-[320px] hover:-translate-y-2",
                 onMouseOver: handleMouseOver,
                 onMouseLeave: handleMouseLeave,
                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                     src: images[currentIndex].src,
                     alt: `Slider Image ${currentIndex + 1}`,
                     fill: true,
-                    className: "cursor-pointer rounded-xl object-cover transition-all duration-500 ease-in-out"
+                    sizes: "(max-width: 720px) calc(100vw - 48px), 42vw",
+                    quality: 90,
+                    className: "cursor-pointer rounded-xl object-contain p-6 transition-all duration-500 ease-in-out"
                 }, void 0, false, {
                     fileName: "[project]/app/components/slider.tsx",
                     lineNumber: 63,
@@ -97,7 +99,7 @@ function Slider() {
                         className: "h-5 w-5 text-white/75 transition group-hover:text-white"
                     }, void 0, false, {
                         fileName: "[project]/app/components/slider.tsx",
-                        lineNumber: 77,
+                        lineNumber: 79,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -105,13 +107,13 @@ function Slider() {
                         children: "Imagen anterior"
                     }, void 0, false, {
                         fileName: "[project]/app/components/slider.tsx",
-                        lineNumber: 78,
+                        lineNumber: 80,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/slider.tsx",
-                lineNumber: 71,
+                lineNumber: 73,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -124,7 +126,7 @@ function Slider() {
                         className: "h-5 w-5 text-white/75 transition group-hover:text-white"
                     }, void 0, false, {
                         fileName: "[project]/app/components/slider.tsx",
-                        lineNumber: 87,
+                        lineNumber: 89,
                         columnNumber: 17
                     }, this),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -132,13 +134,13 @@ function Slider() {
                         children: "Imagen siguiente"
                     }, void 0, false, {
                         fileName: "[project]/app/components/slider.tsx",
-                        lineNumber: 88,
+                        lineNumber: 90,
                         columnNumber: 17
                     }, this)
                 ]
             }, void 0, true, {
                 fileName: "[project]/app/components/slider.tsx",
-                lineNumber: 81,
+                lineNumber: 83,
                 columnNumber: 13
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -157,17 +159,17 @@ function Slider() {
                             ]
                         }, void 0, true, {
                             fileName: "[project]/app/components/slider.tsx",
-                            lineNumber: 101,
+                            lineNumber: 103,
                             columnNumber: 25
                         }, this)
                     }, index, false, {
                         fileName: "[project]/app/components/slider.tsx",
-                        lineNumber: 93,
+                        lineNumber: 95,
                         columnNumber: 21
                     }, this))
             }, void 0, false, {
                 fileName: "[project]/app/components/slider.tsx",
-                lineNumber: 91,
+                lineNumber: 93,
                 columnNumber: 13
             }, this)
         ]

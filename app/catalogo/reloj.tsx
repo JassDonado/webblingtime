@@ -96,7 +96,6 @@ export default function RelojCatalogo() {
 								<strong>{formatCop.format(watch.price)}</strong>
 							</div>
 							<div className="catalog-actions">
-								<button type="button" className="catalog-view">Ver</button>
 								<button
 									type="button"
 									className="catalog-add"
