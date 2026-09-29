@@ -37,7 +37,7 @@ export default function Slider(): JSX.Element {
         if (!ishovered) {
             const interval = setInterval(() => {
                 setCurrentIndex((index) => (index + 1) % images.length);
-            }, 2000);
+            }, 3000);
 
             return () => {
                 clearInterval(interval);
@@ -56,7 +56,7 @@ export default function Slider(): JSX.Element {
     return (
         <div className="relative mx-auto mt-4 w-full">
             <div
-                className="group relative mx-12 h-[460px] hover:-translate-y-2"
+                className="group relative mx-12 h-[min(460px,42vw)] min-h-[320px] hover:-translate-y-2"
                 onMouseOver={handleMouseOver}
                 onMouseLeave={handleMouseLeave}
             >
@@ -64,7 +64,9 @@ export default function Slider(): JSX.Element {
                     src={images[currentIndex].src}
                     alt={`Slider Image ${currentIndex + 1}`}
                     fill
-                    className="cursor-pointer rounded-xl object-cover transition-all duration-500 ease-in-out"
+                    sizes="(max-width: 720px) calc(100vw - 48px), 42vw"
+                    quality={90}
+                    className="cursor-pointer rounded-xl object-contain p-6 transition-all duration-500 ease-in-out"
                 />
             </div>
 

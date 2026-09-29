@@ -1,21 +1,36 @@
-	import Slider from "../components/slider";
-	import InfoBanner from "../components/infobanner";
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import Slider from "../components/slider";
+import InfoBanner from "../components/infobanner";
+import { addToCart } from "../lib/cart";
+	import reloj28000 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER 28000.png";
+	import reloj15145 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER REF 15145.png";
+	import reloj28001 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER REF 28001.png";
+	import relojRacing from "../imgXcatalogo/imgReloj/INVICTA RACING REF 47768.png";
+	import perfume212 from "../imgXcatalogo/imgPerfume/212 VIP.png";
+	import perfumeGoodGirl from "../imgXcatalogo/imgPerfume/CAROLINA HERRERA GOOD GIRL.png";
+	import perfumeSauvage from "../imgXcatalogo/imgPerfume/DIOR SAUVAGE.png";
+	import perfumeOneMillion from "../imgXcatalogo/imgPerfume/One Million.png";
 
 const products = [
-	{ name: "Silueta Nº 01", detail: "Reloj automático · Acero pulido", price: "€ 249", className: "product-image-one" },
-	{ name: "Silueta Nº 02", detail: "Reloj de cuarzo · Cuero italiano", price: "€ 189", className: "product-image-two" },
-	{ name: "Silueta Nº 03", detail: "Reloj automático · Oro mate", price: "€ 299", className: "product-image-three" },
-	{ name: "Silueta Nº 04", detail: "Reloj mecánico · Acero cepillado", price: "€ 329", className: "product-image-four" },
+	{ name: "Invicta Pro Diver 28000", detail: "Reloj automático · Acero pulido", price: "$ 189.000", className: "product-image-one", image: reloj28000 },
+	{ name: "Invicta Pro Diver 15145", detail: "Reloj automático · Acero y negro", price: "$ 249.000", className: "product-image-two", image: reloj15145 },
+	{ name: "Invicta Pro Diver 28001", detail: "Reloj automático · Acero dorado", price: "$ 299.000", className: "product-image-three", image: reloj28001 },
+	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: "$ 489.000", className: "product-image-four", image: relojRacing },
 ];
 
 const perfumes = [
-	{ name: "Aura Nº 01", detail: "Eau de parfum · Notas amaderadas", price: "€ 89", className: "perfume-image-one" },
-	{ name: "Aura Nº 02", detail: "Eau de parfum · Jazmín y ámbar", price: "€ 95", className: "perfume-image-two" },
-	{ name: "Aura Nº 03", detail: "Eau de toilette · Cítricos y cedro", price: "€ 79", className: "perfume-image-three" },
-	{ name: "Aura Nº 04", detail: "Eau de parfum · Rosa y almizcle", price: "€ 99", className: "perfume-image-four" },
+	{ name: "212 VIP", detail: "Eau de parfum · Floral y amaderado", price: "$ 89.000", className: "perfume-image-one", image: perfume212 },
+	{ name: "Good Girl", detail: "Eau de parfum · Almendra y jazmín", price: "$ 139.000", className: "perfume-image-two", image: perfumeGoodGirl },
+	{ name: "Dior Sauvage", detail: "Eau de toilette · Bergamota y ambroxan", price: "$ 139.000", className: "perfume-image-three", image: perfumeSauvage },
+	{ name: "One Million", detail: "Eau de toilette · Canela y cuero", price: "$ 119.000", className: "perfume-image-four", image: perfumeOneMillion },
 ];
 
 export default function Body() {
+	const [addedReference, setAddedReference] = useState<string | null>(null);
+
 	return (
 		<>
 			<section className="hero" id="inicio">
@@ -39,10 +54,18 @@ export default function Body() {
 					{products.map((product, index) => (
 						<article className="product-card" key={product.name}>
 							<div className={`${product.className} product-art`}>
-								<span className="product-watch" aria-hidden="true"><i /><b /></span>
+								<Image src={product.image} alt={product.name} fill sizes="(max-width: 720px) 100vw, 25vw" className="product-art-image" />
 								<span className="product-index">0{index + 1}</span>
 							</div>
 							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{product.price}</strong></div>
+							<div className="product-actions">
+								<button type="button" className="catalog-add" onClick={() => {
+									addToCart({ reference: product.name, price: product.price, category: "Reloj" });
+									setAddedReference(product.name);
+								}}>
+									{addedReference === product.name ? "Añadido" : "Añadir al carrito"}
+								</button>
+							</div>
 						</article>
 					))}
 				</div>
@@ -56,10 +79,18 @@ export default function Body() {
 					{perfumes.map((product, index) => (
 						<article className="product-card" key={product.name}>
 							<div className={`${product.className} product-art`}>
-								<span className="product-bottle" aria-hidden="true" />
+								<Image src={product.image} alt={product.name} fill sizes="(max-width: 720px) 100vw, 25vw" className="product-art-image" />
 								<span className="product-index">0{index + 1}</span>
 							</div>
 							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{product.price}</strong></div>
+							<div className="product-actions">
+								<button type="button" className="catalog-add" onClick={() => {
+									addToCart({ reference: product.name, price: product.price, category: "Perfume" });
+									setAddedReference(product.name);
+								}}>
+									{addedReference === product.name ? "Añadido" : "Añadir al carrito"}
+								</button>
+							</div>
 						</article>
 					))}
 				</div>
