@@ -121,10 +121,144 @@ const perfumeFiles = [
     "XERJOFF ERBA PURA.png",
     "Y YSL EDP.png"
 ];
+const perfumePriceMap = {
+    "212 NYC MEN": 120000,
+    "212 VIP BLACK": 120000,
+    "212 VIP": 150000,
+    "9 AM FEMME": 110000,
+    "9 AM": 130000,
+    "9 PM ELIXIR": 130000,
+    "9 PM REBEL": 130000,
+    "9 PM": 130000,
+    "ACQUA DI GIO PARFUM": 105000,
+    "ACQUA DI GIO PROFONDO": 110000,
+    "ACQUA DI GIO PROFUMO": 110000,
+    "AL HARAMAIN AMBER OUD GOLD": 130000,
+    "AL HARAMAIN AQUA DUBAI": 125000,
+    "AL HARAMAIN DUBAI NIGHT": 140000,
+    "ARABIANS TONKA": 125000,
+    "ARIANA GRANDE CLOUD": 130000,
+    "ARIANA GRANDE THANK U NEXT": 130000,
+    "ARIANA GRANDECLOUD PINK": 130000,
+    "ARMAF ISLAND BLISS": 130000,
+    "ARMAF ISLAND BREEZE": 130000,
+    "ARMAF MANDARIN SKY ELIXIR": 130000,
+    "ARMAF MANDARIN SKY": 120000,
+    "ARMAF MUJER ODYSSEY CANDEE": 120000,
+    "ARMAF ODYSSEY AQUA": 120000,
+    "ARMAF YUM YUM": 130000,
+    "BACCARAT ROUGE 540": 120000,
+    "BHARARA KING": 135000,
+    "BHARARA ROSE": 135000,
+    "Black XS L exces": 110000,
+    "BLEU CHANEL": 120000,
+    "BOSS BOTTLED": 110000,
+    "BURBERRY HER": 120000,
+    "CAROLINA HERRERA 212 VIP ROSE": 115000,
+    "CAROLINA HERRERA FEM": 110000,
+    "CAROLINA HERRERA GOOD GIRL BLUSH": 120000,
+    "CAROLINA HERRERA GOOD GIRL VERY": 150000,
+    "CAROLINA HERRERA GOOD GIRL": 110000,
+    "CLUB DE NUIT INTENSE": 130000,
+    "COCO CHANEL": 110000,
+    "CREED AVENTUS": 110000,
+    "CREED SILVER": 120000,
+    "DIOR SAUVAGE": 110000,
+    "DOLCE GABBANA LIGHT BLUE MASC": 100000,
+    "DOLCE GABBANA LIGHT BLUE": 100000,
+    "FAHRENHEIT DIOR": 110000,
+    "FAME PACO RABANNE": 100000,
+    "FRENCH AVENUE LIQUID BRUN": 135000,
+    "HAWAS RASASI": 125000,
+    "INVICTUS PARFUM": 110000,
+    "INVICTUS VICTORY": 110000,
+    "INVICTUS VINTORY ELIXIR": 120000,
+    "INVICTUS": 105000,
+    "ISSEY MIYAKE": 120000,
+    "JEAN PAUL GAULTIER SCANDAL MUJER": 100000,
+    "JEAN PAUL LE BEAU": 130000,
+    "JEAN PAUL LE MALE ELIXIR PARFUM": 130000,
+    "JEAN PAUL LE MALE LE PARFUM": 130000,
+    "JEAN PAUL LE MALE": 130000,
+    "LACOSTE BLANC": 150000,
+    "LACOSTE RED": 110000,
+    "LANCOME LA VIEEST BELLE": 100000,
+    "LATAFFA BERRY ON TOP": 140000,
+    "LATTAFA ART OF UNIVERSE UNISEX": 150000,
+    "LATTAFA ASAD BOURBON": 120000,
+    "LATTAFA ASAD": 120000,
+    "LATTAFA COOKIE CRAVE": 140000,
+    "LATTAFA ECLAIRE": 120000,
+    "LATTAFA HONORGLORY": 130000,
+    "LATTAFA MALLOW MADDNES": 140000,
+    "LATTAFA MAYAR": 135000,
+    "LATTAFA NOBLE BLUSH": 130000,
+    "LATTAFA VANILLA FREAK": 140000,
+    "LATTAFA VICTORIA": 130000,
+    "LATTAFA WHIPPED PLEASURE": 140000,
+    "LATTAFA YARA CANDY": 120000,
+    "LATTAFA YARA": 120000,
+    "MISS DIOR EDP": 120000,
+    "MOSCHINO TOY 2": 125000,
+    "MOSCHINO TOY 30 ml Set X3": 120000,
+    "MOSCHINO TOY BOY": 125000,
+    "MOSCHINO TOY BUBBLE GUM": 125000,
+    "NITRO RED": 130000,
+    "OMBRE NOMADE": 130000,
+    "One Million Lucky": 110000,
+    "One Million Royal": 110000,
+    "One Million": 105000,
+    "ORIENTICA AMBER ROUGE": 140000,
+    "ORIENTICA OUD SAFFRON": 140000,
+    "ORIENTICA ROYAL AMBER": 140000,
+    "ORIENTICA VELVET GOLD": 140000,
+    "PACO RABANNE OLYMPEA": 100000,
+    "PERRY ELLIS 360 FEM": 100000,
+    "PERRY ELLIS 360 MEN": 100000,
+    "POLO BLUE": 120000,
+    "POLO RED": 120000,
+    "SANTAL 33": 120000,
+    "SCANDAL MEN": 110000,
+    "SET ORIENTICA": 130000,
+    "SPICEBOMB": 110000,
+    "STARWALKER MONTBLANC": 110000,
+    "STRONGER WITH YOU INTENSELY": 130000,
+    "STRONGER WITH YOU": 130000,
+    "TOMMY HILFIGER": 100000,
+    "ULTRA MALE": 130000,
+    "VALENTINO BORN IN ROMA INTENSE": 130000,
+    "VALENTINO DONNA": 110000,
+    "VALENTINO UOMO": 120000,
+    "VERSACE BRIGHT CRYSTAL": 100000,
+    "VERSACE EROS ENERGY": 110000,
+    "VERSACE EROS FLAME": 110000,
+    "VERSACE MUJER YELLOW DIAMOND": 110000,
+    "XERJOFF ERBA PURA": 140000,
+    "Y YSL EDP": 130000
+};
+const formatPrice = (value)=>new Intl.NumberFormat("es-CO", {
+        currency: "COP",
+        style: "currency",
+        maximumFractionDigits: 0
+    }).format(value);
+const getPerfumePrice = (fileName)=>{
+    const productName = fileName.replace(/\.png$/i, "").trim();
+    const exactMatch = perfumePriceMap[productName];
+    if (exactMatch) return formatPrice(exactMatch);
+    const aliases = [
+        productName.replace(/PROFONO$/i, "PROFONDO"),
+        productName.replace(/PROFONDO$/i, "PROFONO")
+    ];
+    for (const alias of aliases){
+        const aliasMatch = perfumePriceMap[alias];
+        if (aliasMatch) return formatPrice(aliasMatch);
+    }
+    return "Consultar";
+};
 const perfumes = perfumeFiles.map((file)=>({
         reference: file.replace(/\.png$/i, ""),
         detail: "Perfume · Disponible en tienda",
-        price: "Consultar",
+        price: getPerfumePrice(file),
         image: `/imagenes/perfumes/${encodeURIComponent(file)}`
     }));
 }),
@@ -167,25 +301,15 @@ function PerfumeCatalogo() {
                         className: "catalog-heading",
                         children: [
                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                children: [
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                        className: "eyebrow",
-                                        children: "Colección de perfumería"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/catalogo/perfume.tsx",
-                                        lineNumber: 19,
-                                        columnNumber: 7
-                                    }, this),
-                                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                        id: "perfume-catalog-title",
-                                        children: "Todos los perfumes"
-                                    }, void 0, false, {
-                                        fileName: "[project]/app/catalogo/perfume.tsx",
-                                        lineNumber: 20,
-                                        columnNumber: 7
-                                    }, this)
-                                ]
-                            }, void 0, true, {
+                                children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
+                                    id: "perfume-catalog-title",
+                                    children: "Colección Bling Parfum"
+                                }, void 0, false, {
+                                    fileName: "[project]/app/catalogo/perfume.tsx",
+                                    lineNumber: 19,
+                                    columnNumber: 7
+                                }, this)
+                            }, void 0, false, {
                                 fileName: "[project]/app/catalogo/perfume.tsx",
                                 lineNumber: 18,
                                 columnNumber: 6
@@ -195,7 +319,7 @@ function PerfumeCatalogo() {
                                 children: "Esencias creadas para dejar una impresión sutil, personal e inolvidable."
                             }, void 0, false, {
                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                lineNumber: 22,
+                                lineNumber: 21,
                                 columnNumber: 6
                             }, this)
                         ]
@@ -220,7 +344,7 @@ function PerfumeCatalogo() {
                                                 sizes: "(max-width: 720px) 100vw, (max-width: 1000px) 50vw, 25vw"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                                lineNumber: 28,
+                                                lineNumber: 27,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -231,13 +355,13 @@ function PerfumeCatalogo() {
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                                lineNumber: 29,
+                                                lineNumber: 28,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/catalogo/perfume.tsx",
-                                        lineNumber: 27,
+                                        lineNumber: 26,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -249,33 +373,33 @@ function PerfumeCatalogo() {
                                                         children: perfume.reference
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/catalogo/perfume.tsx",
-                                                        lineNumber: 33,
+                                                        lineNumber: 32,
                                                         columnNumber: 10
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
                                                         children: perfume.detail
                                                     }, void 0, false, {
                                                         fileName: "[project]/app/catalogo/perfume.tsx",
-                                                        lineNumber: 34,
+                                                        lineNumber: 33,
                                                         columnNumber: 10
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                                lineNumber: 32,
+                                                lineNumber: 31,
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
                                                 children: perfume.price
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                                lineNumber: 36,
+                                                lineNumber: 35,
                                                 columnNumber: 9
                                             }, this)
                                         ]
                                     }, void 0, true, {
                                         fileName: "[project]/app/catalogo/perfume.tsx",
-                                        lineNumber: 31,
+                                        lineNumber: 30,
                                         columnNumber: 8
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -294,23 +418,23 @@ function PerfumeCatalogo() {
                                             children: addedReference === perfume.reference ? "Añadido" : "Añadir al carrito"
                                         }, void 0, false, {
                                             fileName: "[project]/app/catalogo/perfume.tsx",
-                                            lineNumber: 39,
+                                            lineNumber: 38,
                                             columnNumber: 9
                                         }, this)
                                     }, void 0, false, {
                                         fileName: "[project]/app/catalogo/perfume.tsx",
-                                        lineNumber: 38,
+                                        lineNumber: 37,
                                         columnNumber: 8
                                     }, this)
                                 ]
                             }, perfume.reference, true, {
                                 fileName: "[project]/app/catalogo/perfume.tsx",
-                                lineNumber: 26,
+                                lineNumber: 25,
                                 columnNumber: 7
                             }, this))
                     }, void 0, false, {
                         fileName: "[project]/app/catalogo/perfume.tsx",
-                        lineNumber: 24,
+                        lineNumber: 23,
                         columnNumber: 5
                     }, this)
                 ]
@@ -321,7 +445,7 @@ function PerfumeCatalogo() {
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$app$2f$inicio$2f$foot$2e$tsx__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/app/catalogo/perfume.tsx",
-                lineNumber: 50,
+                lineNumber: 49,
                 columnNumber: 4
             }, this)
         ]

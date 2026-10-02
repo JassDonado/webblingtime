@@ -79,159 +79,159 @@ const formatCop = new Intl.NumberFormat("es-CO", {
 });
 const watches = [
     {
-        reference: "Invicta Pro Diver 28000",
-        detail: "Invicta Pro Diver · Ref. 28000",
-        price: 189000,
+        reference: "Invicta Pro Driver 28000",
+        detail: "Invicta Pro Driver · Ref. 28000",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__28000$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__28000$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 15145",
-        detail: "Invicta Pro Diver · Ref. 15145",
-        price: 249000,
+        reference: "Invicta Pro Driver 15145",
+        detail: "Invicta Pro Driver · Ref. 15145",
+        price: 400000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__15145$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__15145$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 28001",
-        detail: "Invicta Pro Diver · Ref. 28001",
-        price: 299000,
+        reference: "Invicta Pro Driver 28001",
+        detail: "Invicta Pro Driver · Ref. 28001",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__28001$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__28001$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 3002",
-        detail: "Invicta Pro Diver · Ref. 3002",
-        price: 329000,
+        reference: "Invicta Pro Driver 3002",
+        detail: "Invicta Pro Driver · Ref. 3002",
+        price: 360000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__3002$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__3002$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 30023",
-        detail: "Invicta Pro Diver · Ref. 30023",
-        price: 329000,
+        reference: "Invicta Pro Driver 30023",
+        detail: "Invicta Pro Driver · Ref. 30023",
+        price: 360000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__30023$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__30023$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 33938",
-        detail: "Invicta Pro Diver · Ref. 33938",
-        price: 349000,
+        reference: "Invicta Aviator 33938",
+        detail: "Invicta Aviator · Ref. 33938",
+        price: 410000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__33938$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__33938$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 34105",
-        detail: "Invicta Pro Diver · Ref. 34105",
-        price: 359000,
+        reference: "Invicta Pro Driver 34105",
+        detail: "Invicta Pro Driver · Ref. 34105",
+        price: 350000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__34105$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__34105$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 34138",
-        detail: "Invicta Pro Diver · Ref. 34138",
-        price: 369000,
+        reference: "Invicta Pro Driver 34138",
+        detail: "Invicta Pro Driver · Ref. 34138",
+        price: 530000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__34138$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__34138$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 3513",
-        detail: "Invicta Pro Diver · Ref. 3513",
-        price: 379000,
+        reference: "Invicta Pro Driver 35130",
+        detail: "Invicta Pro Driver · Ref. 35130",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__3513$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__3513$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 35743",
-        detail: "Invicta Pro Diver · Ref. 35743",
-        price: 389000,
+        reference: "Invicta Pro Driver 35743",
+        detail: "Invicta Pro Driver · Ref. 35743",
+        price: 370000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__35743$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__35743$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 37032",
-        detail: "Invicta Pro Diver · Ref. 37032",
-        price: 399000,
+        reference: "Invicta Aviator 37032",
+        detail: "Invicta Aviator · Ref. 37032",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__37032$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__37032$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 37186",
-        detail: "Invicta Pro Diver · Ref. 37186",
-        price: 409000,
+        reference: "Invicta Pro Driver 37186",
+        detail: "Invicta Pro Driver · Ref. 37186",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__37186$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__37186$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 39266",
-        detail: "Invicta Pro Diver · Ref. 39266",
-        price: 419000,
+        reference: "Invicta Pro Driver 39266",
+        detail: "Invicta Pro Driver · Ref. 39266",
+        price: 380000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__39266$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__39266$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 44708",
-        detail: "Invicta Pro Diver · Ref. 44708",
-        price: 429000,
+        reference: "Invicta Pro Driver 44708",
+        detail: "Invicta Pro Driver · Ref. 44708",
+        price: 330000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__44708$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__44708$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 47161",
-        detail: "Invicta Pro Diver · Ref. 47161",
-        price: 439000,
+        reference: "Invicta Pro Driver 47161",
+        detail: "Invicta Pro Driver · Ref. 47161",
+        price: 300000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__47161$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__47161$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 47426",
-        detail: "Invicta Pro Diver · Ref. 47426",
-        price: 449000,
+        reference: "Invicta Specialty 47426",
+        detail: "Invicta Specialty · Ref. 47426",
+        price: 0,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__47426$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__47426$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 48380",
-        detail: "Invicta Pro Diver · Ref. 48380",
-        price: 459000,
+        reference: "Invicta Pro Driver 48380",
+        detail: "Invicta Pro Driver · Ref. 48380",
+        price: 400000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__48380$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__48380$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 48381",
-        detail: "Invicta Pro Diver · Ref. 48381",
-        price: 459000,
+        reference: "Invicta Pro Driver 48381",
+        detail: "Invicta Pro Driver · Ref. 48381",
+        price: 410000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__48381$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__48381$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 49838",
-        detail: "Invicta Pro Diver · Ref. 49838",
-        price: 469000,
+        reference: "Invicta Pro Driver 49838",
+        detail: "Invicta Pro Driver · Ref. 49838",
+        price: 400000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__49838$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__49838$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        reference: "Invicta Pro Diver 50942",
-        detail: "Invicta Pro Diver · Ref. 50942",
-        price: 479000,
+        reference: "Invicta Pro Driver 50942",
+        detail: "Invicta Pro Driver · Ref. 50942",
+        price: 360000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__50942$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__50942$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Invicta Racing 47768",
         detail: "Invicta Racing · Ref. 47768",
-        price: 489000,
+        price: 370000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__RACING__REF__47768$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__RACING__REF__47768$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Invicta Specialty 47507",
         detail: "Invicta Specialty · Ref. 47507",
-        price: 499000,
+        price: 0,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__SPECIALTY__REF__47507$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__SPECIALTY__REF__47507$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Invicta Specialty Dama 47473",
         detail: "Invicta Specialty Dama · Ref. 47473",
-        price: 509000,
+        price: 0,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__SPECIALTY__DAMA__REF__47473$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__SPECIALTY__DAMA__REF__47473$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Technomarine Black 523010",
         detail: "Technomarine Black · Ref. TM 523010",
-        price: 519000,
+        price: 700000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REF__TM__523010$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REF__TM__523010$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Technomarine Black Reef 523011",
         detail: "Technomarine Black Reef · Ref. TM 523011",
-        price: 529000,
+        price: 700000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REEF__REF__TM__523011$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REEF__REF__TM__523011$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         reference: "Technomarine Black Reef 523012",
         detail: "Technomarine Black Reef · Ref. TM 523012",
-        price: 539000,
+        price: 700000,
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REEF__REF__TM__523012$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$TECHNOMARINEBLACK__REEF__REF__TM__523012$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$client$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     }
 ];
@@ -349,7 +349,7 @@ function RelojCatalogo() {
                                                 columnNumber: 9
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                children: formatCop.format(watch.price)
+                                                children: watch.price > 0 ? formatCop.format(watch.price) : "Consultar"
                                             }, void 0, false, {
                                                 fileName: "[project]/app/catalogo/reloj.tsx",
                                                 lineNumber: 96,
@@ -369,7 +369,7 @@ function RelojCatalogo() {
                                             onClick: ()=>{
                                                 (0, __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$lib$2f$cart$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["addToCart"])({
                                                     reference: watch.reference,
-                                                    price: formatCop.format(watch.price),
+                                                    price: watch.price > 0 ? formatCop.format(watch.price) : "Consultar",
                                                     category: "Reloj"
                                                 });
                                                 setAddedReference(watch.reference);

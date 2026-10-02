@@ -496,30 +496,30 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgPe
 ;
 const products = [
     {
-        name: "Invicta Pro Diver 28000",
+        name: "Invicta Pro Driver 28000",
         detail: "Reloj automático · Acero pulido",
-        price: "$ 189.000",
+        price: "$ 380.000",
         className: "product-image-one",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__28000$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__28000$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        name: "Invicta Pro Diver 15145",
+        name: "Invicta Pro Driver 15145",
         detail: "Reloj automático · Acero y negro",
-        price: "$ 249.000",
+        price: "$ 400.000",
         className: "product-image-two",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__15145$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__15145$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
-        name: "Invicta Pro Diver 28001",
+        name: "Invicta Pro Driver 28001",
         detail: "Reloj automático · Acero dorado",
-        price: "$ 299.000",
+        price: "$ 380.000",
         className: "product-image-three",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__28001$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__PRO__DIVER__REF__28001$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         name: "Invicta Racing 47768",
         detail: "Reloj cronógrafo · Acero",
-        price: "$ 489.000",
+        price: "$ 370.000",
         className: "product-image-four",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__RACING__REF__47768$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgReloj$2f$INVICTA__RACING__REF__47768$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     }
@@ -528,28 +528,28 @@ const perfumes = [
     {
         name: "212 VIP",
         detail: "Eau de parfum · Floral y amaderado",
-        price: "$ 89.000",
+        price: "$ 150.000",
         className: "perfume-image-one",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$212__VIP$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$212__VIP$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         name: "Good Girl",
         detail: "Eau de parfum · Almendra y jazmín",
-        price: "$ 139.000",
+        price: "$ 110.000",
         className: "perfume-image-two",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$CAROLINA__HERRERA__GOOD__GIRL$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$CAROLINA__HERRERA__GOOD__GIRL$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         name: "Dior Sauvage",
         detail: "Eau de toilette · Bergamota y ambroxan",
-        price: "$ 139.000",
+        price: "$ 110.000",
         className: "perfume-image-three",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$DIOR__SAUVAGE$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$DIOR__SAUVAGE$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     },
     {
         name: "One Million",
         detail: "Eau de toilette · Canela y cuero",
-        price: "$ 119.000",
+        price: "$ 105.000",
         className: "perfume-image-four",
         image: __TURBOPACK__imported__module__$5b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$One__Million$2e$png$2e$mjs__$7b$__IMAGE__$3d3e$__$225b$project$5d2f$app$2f$imgXcatalogo$2f$imgPerfume$2f$One__Million$2e$png__$28$static__in__ecmascript$2c$__tag__client$2922$__$7d$__$5b$app$2d$ssr$5d$__$28$structured__image__object__with__data__url$2c$__ecmascript$29$__["default"]
     }

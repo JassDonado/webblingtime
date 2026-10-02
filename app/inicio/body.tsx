@@ -15,17 +15,17 @@ import { addToCart } from "../lib/cart";
 	import perfumeOneMillion from "../imgXcatalogo/imgPerfume/One Million.png";
 
 const products = [
-	{ name: "Invicta Pro Driver 28000", detail: "Reloj automático · Acero pulido", price: "$ 189.000", className: "product-image-one", image: reloj28000 },
-	{ name: "Invicta Pro Driver 15145", detail: "Reloj automático · Acero y negro", price: "$ 249.000", className: "product-image-two", image: reloj15145 },
-	{ name: "Invicta Pro Driver 28001", detail: "Reloj automático · Acero dorado", price: "$ 299.000", className: "product-image-three", image: reloj28001 },
-	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: "$ 489.000", className: "product-image-four", image: relojRacing },
+	{ name: "Invicta Pro Driver 28000", detail: "Reloj automático · Acero pulido", price: "$ 380.000", className: "product-image-one", image: reloj28000 },
+	{ name: "Invicta Pro Driver 15145", detail: "Reloj automático · Acero y negro", price: "$ 400.000", className: "product-image-two", image: reloj15145 },
+	{ name: "Invicta Pro Driver 28001", detail: "Reloj automático · Acero dorado", price: "$ 380.000", className: "product-image-three", image: reloj28001 },
+	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: "$ 370.000", className: "product-image-four", image: relojRacing },
 ];
 
 const perfumes = [
-	{ name: "212 VIP", detail: "Eau de parfum · Floral y amaderado", price: "$ 89.000", className: "perfume-image-one", image: perfume212 },
-	{ name: "Good Girl", detail: "Eau de parfum · Almendra y jazmín", price: "$ 139.000", className: "perfume-image-two", image: perfumeGoodGirl },
-	{ name: "Dior Sauvage", detail: "Eau de toilette · Bergamota y ambroxan", price: "$ 139.000", className: "perfume-image-three", image: perfumeSauvage },
-	{ name: "One Million", detail: "Eau de toilette · Canela y cuero", price: "$ 119.000", className: "perfume-image-four", image: perfumeOneMillion },
+	{ name: "212 VIP", detail: "Eau de parfum · Floral y amaderado", price: "$ 150.000", className: "perfume-image-one", image: perfume212 },
+	{ name: "Good Girl", detail: "Eau de parfum · Almendra y jazmín", price: "$ 110.000", className: "perfume-image-two", image: perfumeGoodGirl },
+	{ name: "Dior Sauvage", detail: "Eau de toilette · Bergamota y ambroxan", price: "$ 110.000", className: "perfume-image-three", image: perfumeSauvage },
+	{ name: "One Million", detail: "Eau de toilette · Canela y cuero", price: "$ 105.000", className: "perfume-image-four", image: perfumeOneMillion },
 ];
 
 export default function Body() {

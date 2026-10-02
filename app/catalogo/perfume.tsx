@@ -16,8 +16,7 @@ export default function PerfumeCatalogo() {
 			<section className="catalog-page" aria-labelledby="perfume-catalog-title">
 				<div className="catalog-heading">
 					<div>
-						<p className="eyebrow">Colección de perfumería</p>
-						<h1 id="perfume-catalog-title">Todos los perfumes</h1>
+						<h1 id="perfume-catalog-title">Colección Bling Parfum</h1>
 					</div>
 					<p className="catalog-intro">Esencias creadas para dejar una impresión sutil, personal e inolvidable.</p>
 				</div>
