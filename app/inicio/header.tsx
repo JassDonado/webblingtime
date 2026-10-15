@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
 import { CART_UPDATED_EVENT, readCart, removeFromCart, type CartItem } from '../lib/cart';
 
-const WHATSAPP_BUSINESS_NUMBER = '3245030090';
+const WHATSAPP_BUSINESS_NUMBER = '573244495800';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
