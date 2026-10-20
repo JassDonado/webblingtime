@@ -258,5 +258,6 @@ export const perfumes = perfumeFiles.map((file) => ({
 	reference: file.replace(/\.png$/i, ""),
 	detail: "Perfume · Disponible en tienda",
 	price: getPerfumePrice(file),
+	priceValue: perfumePriceMap[file.replace(/\.png$/i, "").trim()] ?? perfumePriceMap[file.replace(/\.png$/i, "").trim().replace(/PROFONO$/i, "PROFONDO")] ?? 0,
 	image: `/imagenes/perfumes/${encodeURIComponent(file)}`,
 }));

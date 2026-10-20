@@ -36,7 +36,7 @@ export default function PerfumeCatalogo() {
 							</div>
 							<div className="catalog-actions">
 								<button type="button" className="catalog-add" onClick={() => {
-									addToCart({ reference: perfume.reference, price: perfume.price, category: "Perfume" });
+									addToCart({ reference: perfume.reference, price: perfume.priceValue, category: "Perfume" });
 									setAddedReference(perfume.reference);
 								}}>
 									{addedReference === perfume.reference ? "Añadido" : "Añadir al carrito"}

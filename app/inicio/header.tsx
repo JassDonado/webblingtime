@@ -3,7 +3,7 @@
 import { ShoppingCartPlus, X } from 'lucide-react';
 import Link from 'next/link';
 import { useEffect, useRef, useState } from 'react';
-import { CART_UPDATED_EVENT, readCart, removeFromCart, type CartItem } from '../lib/cart';
+import { CART_UPDATED_EVENT, formatCop, readCart, removeFromCart, type CartItem } from '../lib/cart';
 
 const WHATSAPP_BUSINESS_NUMBER = '573244495800';
 
@@ -54,10 +54,12 @@ export default function Header() {
   }, [isCartOpen]);
 
   const itemCount = cart.reduce((total, item) => total + item.quantity, 0);
-  const cartTotal = cart.reduce((total, item) => total + Number(item.price.replace(/[^\d,]/g, '').replace(',', '.')) * item.quantity, 0);
+  const cartTotal = cart.reduce((total, item) => total + item.price * item.quantity, 0);
   const checkout = () => {
-    const products = cart.map((item) => `${item.category}: ${item.reference} | ${item.price} | Cantidad: ${item.quantity}`).join('\n');
-    const message = `Hola, quiero realizar este pedido:\n${products}\nTotal: € ${cartTotal.toFixed(2)}`;
+    const products = cart
+      .map((item) => `- ${item.reference} | Cantidad: ${item.quantity} | ${formatCop(item.price * item.quantity)}`)
+      .join('\n');
+    const message = `¡Hola! Vengo de la página web y quiero realizar este pedido:\n\n*Mi carrito:*\n${products}\n*Total:* *${formatCop(cartTotal)}*\n\n¿Cuáles son los pasos a seguir? Gracias.`;
     window.open(`https://wa.me/${WHATSAPP_BUSINESS_NUMBER}?text=${encodeURIComponent(message)}`, '_blank', 'noopener,noreferrer');
   };
   const toggleCart = () => {
@@ -93,7 +95,6 @@ export default function Header() {
             <a href="/catalogo/reloj" className="hover:text-amber-700 transition-colors">relojes</a>
             <a href="/catalogo/perfume" className="hover:text-amber-700 transition-colors">Perfumes</a>
             <a href="#contacto" className="hover:text-amber-700 transition-colors">Contactanos</a>
-            <a href="#nosotros" className="hover:text-amber-700 transition-colors">nosotros</a>
           </nav>
         )}
 
@@ -118,12 +119,12 @@ export default function Header() {
               <div className="cart-items">
                 {cart.map((item) => (
                   <div className="cart-item" key={item.reference}>
-                    <div><strong>{item.reference}</strong><span>{item.category} · {item.price} · Cantidad: {item.quantity}</span></div>
+                    <div><strong>{item.reference}</strong><span>{item.category} · {formatCop(item.price)} · Cantidad: {item.quantity}</span></div>
                     <button type="button" onClick={() => removeFromCart(item.reference)} aria-label={`Eliminar ${item.reference}`}><X size={15} /></button>
                   </div>
                 ))}
               </div>
-              <div className="cart-total"><span>Total</span><strong>€ {cartTotal.toFixed(2)}</strong></div>
+              <div className="cart-total"><span>Total</span><strong>{formatCop(cartTotal)}</strong></div>
               <button type="button" className="cart-checkout" onClick={checkout}>Pagar</button>
             </>
           )}

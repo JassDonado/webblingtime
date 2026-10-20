@@ -4,10 +4,9 @@ import { useState } from "react";
 import Image from "next/image";
 import Slider from "../components/slider";
 import InfoBanner from "../components/infobanner";
-import { addToCart } from "../lib/cart";
+import { addToCart, formatCop } from "../lib/cart";
 	import reloj28000 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER 28000.png";
 	import reloj15145 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER REF 15145.png";
-	import reloj28001 from "../imgXcatalogo/imgReloj/INVICTA PRO DIVER REF 28001.png";
 	import relojRacing from "../imgXcatalogo/imgReloj/INVICTA RACING REF 47768.png";
 	import perfume212 from "../imgXcatalogo/imgPerfume/212 VIP.png";
 	import perfumeGoodGirl from "../imgXcatalogo/imgPerfume/CAROLINA HERRERA GOOD GIRL.png";
@@ -15,17 +14,16 @@ import { addToCart } from "../lib/cart";
 	import perfumeOneMillion from "../imgXcatalogo/imgPerfume/One Million.png";
 
 const products = [
-	{ name: "Invicta Pro Driver 28000", detail: "Reloj automático · Acero pulido", price: "$ 380.000", className: "product-image-one", image: reloj28000 },
-	{ name: "Invicta Pro Driver 15145", detail: "Reloj automático · Acero y negro", price: "$ 400.000", className: "product-image-two", image: reloj15145 },
-	{ name: "Invicta Pro Driver 28001", detail: "Reloj automático · Acero dorado", price: "$ 380.000", className: "product-image-three", image: reloj28001 },
-	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: "$ 370.000", className: "product-image-four", image: relojRacing },
+	{ name: "Invicta Pro Driver 28000", detail: "Reloj automático · Acero pulido", price: 380000, className: "product-image-one", image: reloj28000 },
+	{ name: "Invicta Pro Driver 15145", detail: "Reloj automático · Acero y negro", price: 400000, className: "product-image-two", image: reloj15145 },
+	{ name: "Invicta Racing 47768", detail: "Reloj cronógrafo · Acero", price: 370000, className: "product-image-three", image: relojRacing },
 ];
 
 const perfumes = [
-	{ name: "212 VIP", detail: "Eau de parfum · Floral y amaderado", price: "$ 150.000", className: "perfume-image-one", image: perfume212 },
-	{ name: "Good Girl", detail: "Eau de parfum · Almendra y jazmín", price: "$ 110.000", className: "perfume-image-two", image: perfumeGoodGirl },
-	{ name: "Dior Sauvage", detail: "Eau de toilette · Bergamota y ambroxan", price: "$ 110.000", className: "perfume-image-three", image: perfumeSauvage },
-	{ name: "One Million", detail: "Eau de toilette · Canela y cuero", price: "$ 105.000", className: "perfume-image-four", image: perfumeOneMillion },
+	{ name: "212 VIP", detail: "Eau de parfum · Floral y amaderado", price: 150000, className: "perfume-image-one", image: perfume212 },
+	{ name: "Good Girl", detail: "Eau de parfum · Almendra y jazmín", price: 110000, className: "perfume-image-two", image: perfumeGoodGirl },
+	{ name: "Dior Sauvage", detail: "Eau de toilette · Bergamota y ambroxan", price: 110000, className: "perfume-image-three", image: perfumeSauvage },
+	{ name: "One Million", detail: "Eau de toilette · Canela y cuero", price: 105000, className: "perfume-image-four", image: perfumeOneMillion },
 ];
 
 export default function Body() {
@@ -57,7 +55,7 @@ export default function Body() {
 								<Image src={product.image} alt={product.name} fill sizes="(max-width: 720px) 100vw, 25vw" className="product-art-image" />
 								<span className="product-index">0{index + 1}</span>
 							</div>
-							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{product.price}</strong></div>
+							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{formatCop(product.price)}</strong></div>
 							<div className="product-actions">
 								<button type="button" className="catalog-add" onClick={() => {
 									addToCart({ reference: product.name, price: product.price, category: "Reloj" });
@@ -82,7 +80,7 @@ export default function Body() {
 								<Image src={product.image} alt={product.name} fill sizes="(max-width: 720px) 100vw, 25vw" className="product-art-image" />
 								<span className="product-index">0{index + 1}</span>
 							</div>
-							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{product.price}</strong></div>
+							<div className="product-info"><div><h3>{product.name}</h3><p>{product.detail}</p></div><strong>{formatCop(product.price)}</strong></div>
 							<div className="product-actions">
 								<button type="button" className="catalog-add" onClick={() => {
 									addToCart({ reference: product.name, price: product.price, category: "Perfume" });

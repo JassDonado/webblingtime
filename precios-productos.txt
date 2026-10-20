@@ -1,27 +1,18 @@
 [RELOJES]
 Invicta Pro Diver 28000 = 380000
 Invicta Pro Diver 15145 = 400000
-Invicta Pro Diver 28001 = 380000
-Invicta Pro Diver 30022 = 360000
-Invicta Pro Diver 30023 = 360000
-Invicta Aviator 33938 = 410000
 Invicta Pro Diver 34105 = 350000
 Invicta Bolt 34138 = 530000
-Invicta Pro Diver 35130 = 380000
 Invicta Pro Diver 35743 = 370000
 Invicta Aviator 37032 = 380000
-Invicta Pro Diver 37186 = 380000
 Invicta Aviator 39266 = 380000
 Invicta Pro Driver 44708 = 330000
 Invicta Pro Driver 47161 = 300000
-Invicta Specialty 47426 = 
 Invicta Pro Driver 48380 = 400000
 Invicta Pro Driver 48381 = 410000
 Invicta Pro Driver 49838 = 400000
 Invicta Pro Driver 50942 = 360000
 Invicta Racing 47768 = 370000
-Invicta Specialty 47507 = AGOTADO
-Invicta Specialty Dama 47473 = AGOTADO
 INVICTA ANGEL LADY REF 28680 = 360000
 INVICTA BOLT REF 34137 = 470000
 INVICTA MUJER PRO DIVER REF 29192 = 350000
